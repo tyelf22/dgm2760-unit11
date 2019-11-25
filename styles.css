@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-image: 
+    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(46, 49, 49, 0.73)),
+    url(./images/hotel.jpg);
+    background-position: top;
+    height: 140px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > h1,
+header > h2 {
+    display: absolute;
+    padding: 10px 2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* MAIN */
+
+.main h2 {
+    margin: 10px;
+    color: #003B81;
+    font-size: 30px;
+}
+
+.main h3 {
+    margin: 10px 0 0 15px;
+    color: #DD1735;
+}
+
+.main ul {
+    margin-left: 15px;
+}
+
+.main li {
+    margin-left: 25px;
+}
+
+.content h3 {
+    margin: 25px 0;
+}
+
+.hotels ul {
+    margin-top: 50px;
+}
+
+.hotels li {
+    display: inline;
+    background:#003B81;
+    padding: 10px;
+   
+}
+
+.hotels a {
+  text-decoration: none; 
+  color: white;
+}
+
+.content h4 {
+    color: #003B81;
+    margin-top: -20px;
+}
+
+.content p {
+    padding: 15px;
+    background: #DD1735;
+    width: 300px;
+    margin: 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+
+
+.main h4{
+    padding: 15px; 
+    
+}
+
+#hotelImage {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+
+/* FOOTER */
+
+footer{
+   position: fixed;
+   bottom: 0;
+   background: #003B81;
+   width: 100%;
+   height: 25px;
+   text-align: center;
+   line-height: 25px;
+   color: white;
+}
+

@@ -1,0 +1,29 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomType": ["King", "Queen", "Double"],
+            "address": "128 Flower Lane",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "100",
+            "gym": "No",
+            "roomType": ["King", "Queen", "Twin"],
+            "address": "128 Daisy Lane",
+            "picture": "room2.jpg"            
+        },
+        {
+            "name": "Hilton",
+            "rooms": "150",
+            "gym": "Yes",
+            "roomType": ["King", "Queen", "Double", "Twin"],
+            "address": "128 Rose Lane",
+            "picture": "room3.jpg"
+        }
+       
+    ]
+}
